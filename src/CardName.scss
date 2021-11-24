@@ -1,0 +1,40 @@
+@import "node_modules/@bbva-web-components/bbva-foundations-sass/main";
+
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host([hidden]), [hidden] {
+  display: none !important;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card-name{
+  padding: 30px;
+}
+
+.card-name-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.datos p{
+  color: rgb(32, 122, 240);
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.options a{
+  font-weight: bold;
+  color: rgb(32, 122, 240);
+  margin-top: 10px;
+}
